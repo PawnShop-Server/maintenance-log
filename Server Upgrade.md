@@ -1,9 +1,9 @@
 # PawnShop
 ## Server Upgrade
-__Start Date:__ 5/19/2018
-__End Date:__ _On-going_
-__Start Time:__ 4:00 PM
-__End Time:__ _On-going_
+__Start Date:__ 5/19/2018  
+__End Date:__ _On-going_  
+__Start Time:__ 4:00 PM  
+__End Time:__ _On-going_  
 
 ### Pre-Blackout
 - [ ] ~~Migrate VMs. Run `virsh dumpxml $vm > $vm.xml`~~ Ubuntu is corrupted.
@@ -28,7 +28,7 @@ sudo vgexport pawnshop_main_array
 that array into the LVM array.
 
 ### Checkpoint #1
-- [ ] Backup boot drive
+- [x] Backup boot drive
 
 ### Blackout Phase 2
 - [ ] Configure libvirt and KVM
@@ -45,4 +45,4 @@ that array into the LVM array.
 - [ ] Backup boot drive
 
 ### Post-Blackout
-- [ ] Notify _Trusted Three_; email to `trustedthree@thenwhatstudios.com`
+- [ ] Notify the _Trusted Three_; email to `trustedthree@thenwhatstudios.com`
