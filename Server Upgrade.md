@@ -31,18 +31,33 @@ that array into the LVM array.
 - [x] Backup boot drive
 
 ### Blackout Phase 2
-- [ ] Configure libvirt and KVM
-- [ ] Activate VMs
+- [x] Configure libvirt and KVM
+- [x] Activate VMs
 
 ### Checkpoint #2
 - [ ] Backup boot drive
 
 ### Blackout Phase 3
 - [ ] Install Samba and Winbind
-- [ ] Configure and activate Samba
 
 ### Checkpoint #3
 - [ ] Backup boot drive
 
+### Blackout Phase 4
+- [ ] Configure and activate Samba
+- [ ] Verify Samba configuration
+
+### Checkpoint #4
+- [ ] Backup boot drive
+
 ### Post-Blackout
+- [ ] Verify configuration
+
+Upgrade went well:
+- [ ] Clone boot drive to a cold drive
+- [ ] Image boot drive for offsite safekeeping
+
+Upgrade went badly:
+- [ ] Restore from checkpoint #1, _if possible_, or checkpoint #2
+
 - [ ] Notify the _Trusted Three_; email to `trustedthree@thenwhatstudios.com`
