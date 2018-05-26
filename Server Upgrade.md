@@ -33,9 +33,14 @@ that array into the LVM array.
 ### Blackout Phase 2
 - [x] Configure libvirt and KVM
 - [x] Activate VMs
+- [x] Update VMs. Note: Windows Server 2016 takes forever to update. Always
+install _Cumulative Updates_ (CUs) by hand.
+- [x] Install Mosh.
 
 ### Checkpoint #2
-- [ ] Backup boot drive
+- [x] Export VM XML configurations
+- [x] Backup VM disk image
+- [x] Backup boot drive
 
 ### Blackout Phase 3
 - [ ] Install Samba and Winbind
@@ -59,5 +64,6 @@ Upgrade went well:
 
 Upgrade went badly:
 - [ ] Restore from checkpoint #1, _if possible_, or checkpoint #2
+
 
 - [ ] Notify the _Trusted Three_; email to `trustedthree@thenwhatstudios.com`
