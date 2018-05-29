@@ -36,6 +36,8 @@ that array into the LVM array.
 - [x] Update VMs. Note: Windows Server 2016 takes forever to update. Always
 install _Cumulative Updates_ (CUs) by hand.
 - [x] Install Mosh.
+- [x] Install and configure NTP
+- [x] Configure VMs to use host NTP
 
 ### Checkpoint #2
 - [x] Export VM XML configurations
@@ -44,6 +46,7 @@ install _Cumulative Updates_ (CUs) by hand.
 
 ### Blackout Phase 3
 - [ ] Install Samba and Winbind
+- [ ] Disable automatic upgrades
 
 ### Checkpoint #3
 - [ ] Backup boot drive
