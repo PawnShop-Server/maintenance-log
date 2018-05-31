@@ -45,11 +45,11 @@ install _Cumulative Updates_ (CUs) by hand.
 - [x] Backup boot drive
 
 ### Blackout Phase 3
-- [ ] Install Samba and Winbind
-- [ ] Disable automatic upgrades
+- [x] Install Samba and Winbind
+- [x] Disable automatic upgrades
 
 ### Checkpoint #3
-- [ ] Backup boot drive
+- [x] Backup boot drive
 
 ### Blackout Phase 4
 - [ ] Configure and activate Samba
